@@ -65,9 +65,11 @@ TypeBeam:
 mkdir my-project
 cd my-project
 npm init -y
-npm i -D typescript ts-node
+npm i -D typescript ts-node nodemon
 npm i typebeam @tsconfig/node18-strictest-esm
 ```
+
+Update `package.json` to include `"type": "module"`.
 
 Configure TypeScript with a `tsconfig.json` file:
 
