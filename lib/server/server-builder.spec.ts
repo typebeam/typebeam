@@ -1,5 +1,5 @@
 import { ServerBuilder } from "./server-builder";
-import type { Request } from "./request";
+import { Request } from "./request";
 
 describe("ServerBuilder", () => {
   it("should register separate methods on same route", async () => {

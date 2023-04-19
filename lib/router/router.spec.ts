@@ -1,5 +1,5 @@
 import { Router } from "./router";
-import type { RouteHandler } from "../server/route-handler";
+import { RouteHandler } from "../server/route-handler";
 
 describe("Router", () => {
   it("should return data set for route", () => {
@@ -20,7 +20,7 @@ describe("Router", () => {
     const router = new Router();
     router.addRoute("assets/*");
     const { params } = router.parse("/assets/something.js");
-    expect(params).toEqual("things");
+    expect(params["path"]).toEqual("/assets/something.js");
   });
 
   it("should return param values from key parts of route", () => {
