@@ -141,6 +141,8 @@ accepting incoming requests.
 
 ## Examples [WIP]
 
+[Basic Example](https://github.com/typebeam/typebeam-example/tree/main/src)
+
 Hopefully the high-level overview made some sense. But it might be better to get an idea
 of how TypeBeam is used by looking at some examples. 
 
