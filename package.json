@@ -21,6 +21,10 @@
     "TypeBeam",
     "framework"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typebeam/typebeam"
+  },
   "author": "Darren Mothersele <github@daz.is>",
   "license": "MIT",
   "devDependencies": {
