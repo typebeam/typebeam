@@ -6,7 +6,7 @@ and intuitive developer experience, while still being flexible enough
 to handle a wide range of use cases.
 
 It has been built with the main focus on creating minimal code to be as
-expressive as possible. The best DX we could imagine. While making most
+expressive as possible. While making most
 use of TypeScript type-inference to do the heavy lifting. Removing the need
 for boilerplate inherent in other popular "enterprise" backend frameworks.
 
